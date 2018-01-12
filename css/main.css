@@ -11,6 +11,18 @@
   width: 90%;
   margin-left: 5%;
 }
+.container-nav nav ul a {
+  color: black;
+}
+.m-b {
+  margin-bottom: 0%;
+}
+nav {
+  background-color: white;
+}
+.lab-logo {
+  color: blue;
+}
 .container-home {
   /*background-color: pink;*/
   background-image: url("../assets/images/taxi.jpg");
@@ -30,16 +42,77 @@
   background-color: white;
   color: black;
 }
+.btn-color {
+  background-color: #F7B617;
+  color: white;
+}
 .salto::after, .salto::before {
    content: " ____________________";
 }
+.telephone {
+  height: 15%;
+}
 .card-image {
+  margin: 5% 8%;
   height: 25%;
+}
+.card-content {
+  width: 85%;
+}
+.card-content > h6, h5 {
+  color: white;
+  word-spacing: 5px;
 }
 .background-color {
   background-color: #F7B617;
 }
-.card.horizontal {
-  padding: 5%;
-  margin-top: 0%;
+.card-telephone {
+  border: 1px solid white;
+  border-left: 0%;
+  padding: 0%;
+  width: 85%;
+  margin: 5% 0%;
+}
+.container-drive {
+  background-image: url("../assets/images/conduce.jpg");
+  background-size: cover;
+  background-position: bottom;
+  padding-bottom: 15%;
+  color: white;
+}
+#conductor {
+    background-color: rgba(3, 31, 84, 0.5);
+    padding: 2%;
+}
+
+.container-rates {
+  background-color: #F7B617;
+  /*background-color: pink;
+  background-image: url("../assets/images/taxi.jpg");
+  background-size: cover;
+  background-position: bottom;
+  padding: 15% 0%;*/
+  color: white;
+}
+
+.card-map {
+  border-left: 0%;
+  padding: 0%;
+}
+.card-map > div > img {
+  border: 1px solid white;
+  padding: 2%;
+}
+#icon-from, #icon-to {
+  border: 1px solid white;
+  border-radius: 10%;
+  width: 85%;
+}
+
+.input-field > label {
+  color: white;
+  padding-left: 15%;
+}
+.footer {
+  background-color: black;
 }
