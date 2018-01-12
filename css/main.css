@@ -34,7 +34,6 @@ nav {
   display: inline-block;
 }
 #registro {
-  background-color: #F7B617;
   padding-bottom: 2%;
 }
 .btn-white {
@@ -46,7 +45,7 @@ nav {
   color: white;
 }
 .salto::after, .salto::before {
-   content: " ____________________";
+   content: "_______________";
 }
 .telephone {
   height: 15%;
