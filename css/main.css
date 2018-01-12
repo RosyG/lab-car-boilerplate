@@ -3,7 +3,6 @@
 /*.modal {
   max-height: 90%;
 }
-
 .modal-form-row {
   margin-bottom: 0px;
 }*/
@@ -87,11 +86,6 @@ nav {
 
 .container-rates {
   background-color: #F7B617;
-  /*background-color: pink;
-  background-image: url("../assets/images/taxi.jpg");
-  background-size: cover;
-  background-position: bottom;
-  padding: 15% 0%;*/
   color: white;
 }
 
@@ -101,7 +95,6 @@ nav {
 }
 .card-map > div > img {
   border: 1px solid white;
-  padding: 2%;
 }
 #icon-from, #icon-to {
   border: 1px solid white;
@@ -115,4 +108,5 @@ nav {
 }
 .footer {
   background-color: black;
+  color: white;
 }
