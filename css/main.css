@@ -13,6 +13,7 @@
 .container-nav nav ul a {
   color: black;
 }
+
 .m-b {
   margin-bottom: 0%;
 }
@@ -106,6 +107,6 @@ nav {
   padding-left: 15%;
 }
 .footer {
-  background-color: black;
+  background-color: gray;
   color: white;
 }
