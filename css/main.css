@@ -6,25 +6,31 @@
 .modal-form-row {
   margin-bottom: 0px;
 }*/
-/*.container-nav {
-  width: 90%;
-  margin-left: 5%;
-}
-.container-nav nav ul a {
-  color: black;
-}
-*/
 .m-b {
   margin-bottom: 0%;
 }
-/*
+.m-l {
+  margin-left: 5%;
+}
+.p-l {
+  padding-left: 10%;
+}
+.p-5 {
+  padding: 5%;
+}
+.letter-white {
+  color: white;
+}
+.nav-wrapper {
+  width: 90%;
+  margin-left: 5%;
+}
+.nav-wrapper nav ul li a {
+  color: black;
+}
 nav {
   background-color: white;
 }
-.lab-logo {
-  color: blue;
-}
-*/
 .container-home {
   /*background-color: pink;*/
   background-image: url("../assets/images/taxi.jpg");
@@ -33,11 +39,26 @@ nav {
   padding: 15% 0%;
   color: white;
 }
+.container-home-mobile {
+  background-image: url("../assets/images/taxi.jpg");
+  background-size: cover;
+  background-position: bottom;
+  padding: 30% 0%;
+  color: white;
+}
 .container-home div p {
   display: inline-block;
 }
 #registro {
   padding-bottom: 2%;
+}
+.height-telephone > img {
+  height: 30vh;
+}
+.frame-telephone {
+  border: 1px solid;
+  padding-left: 15%;
+  margin-top: 5%;
 }
 .btn-white {
   background-color: white;
@@ -66,6 +87,7 @@ nav {
 }
 .background-color {
   background-color: #F7B617;
+  color: white;
 }
 .card-telephone {
   border: 1px solid white;
@@ -81,9 +103,20 @@ nav {
   padding-bottom: 15%;
   color: white;
 }
+.container-drive-mobile {
+  background-image: url("../assets/images/conduce.jpg");
+  background-size: cover;
+  background-position: bottom;
+  color: white;
+}
 #conductor {
     background-color: rgba(3, 31, 84, 0.5);
     padding: 2%;
+}
+#conductor-mobile {
+  background-color: rgba(3, 31, 84, 0.5);
+  padding: 8%;
+
 }
 
 .container-rates {
@@ -103,12 +136,26 @@ nav {
   border-radius: 10%;
   width: 85%;
 }
+#icon-rates {
+  border: 1px solid white;
+  border-radius: 10%;
+  width: 90%;
+  box-sizing: border-box;
+
+}
 
 .input-field > label {
   color: white;
   padding-left: 15%;
 }
-.footer {
-  background-color: gray;
+.footer, .footer-mobile {
+  background-color: #2B2B2B;
   color: white;
+}
+.footer > div > div:nth-child(3) > div:nth-child(4) > img:nth-child(1) {
+  padding-top: 75%;
+}
+
+.footer-mobile > div > div:nth-child(5) > img:nth-child(1) {
+  margin-top: 25%;
 }
