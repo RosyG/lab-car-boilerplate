@@ -5,4 +5,5 @@ $(document).ready(function(){
     $('.modal-trigger').leanModal();
   });
 */
-$(".button-collapse").sideNav();
+
+$('.button-collapse').sideNav();

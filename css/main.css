@@ -6,23 +6,25 @@
 .modal-form-row {
   margin-bottom: 0px;
 }*/
-.container-nav {
+/*.container-nav {
   width: 90%;
   margin-left: 5%;
 }
 .container-nav nav ul a {
   color: black;
 }
-
+*/
 .m-b {
   margin-bottom: 0%;
 }
+/*
 nav {
   background-color: white;
 }
 .lab-logo {
   color: blue;
 }
+*/
 .container-home {
   /*background-color: pink;*/
   background-image: url("../assets/images/taxi.jpg");
