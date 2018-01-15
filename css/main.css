@@ -32,7 +32,6 @@ nav {
   background-color: white;
 }
 .container-home {
-  /*background-color: pink;*/
   background-image: url("../assets/images/taxi.jpg");
   background-size: cover;
   background-position: bottom;
@@ -45,6 +44,14 @@ nav {
   background-position: bottom;
   padding: 30% 0%;
   color: white;
+}
+.logo-lab-car {
+  margin-left: 5%;
+  height: 4vh;
+}
+.height-dowload {
+  height: 40vh;
+  padding-left: 5%;
 }
 .container-home div p {
   display: inline-block;
@@ -128,8 +135,11 @@ nav {
   border-left: 0%;
   padding: 0%;
 }
-.card-map > div > img {
+.map-google {
+  width: 65vh;
   border: 1px solid white;
+  padding: 5%;
+  height: 50vh;
 }
 #icon-from, #icon-to {
   border: 1px solid white;
