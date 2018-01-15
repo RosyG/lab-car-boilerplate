@@ -1,0 +1,33 @@
+.login {
+  background-color: #08AC9D;
+  color: white;
+}
+
+.form-user {
+  background-color: white;
+  color: gray;
+}
+.form-user > div > label {
+  color: gray;
+}
+.password {
+  color: red;
+}
+.btn-login {
+  background-color: #FFA500;
+  color: white;
+}
+.container-login {
+  margin-left: 15%;
+}
+.sing-up {
+  background-color: gray;
+  color: white;
+}
+.background-black {
+  background-color: black;
+  color: white;
+}
+.back-white {
+  background-color: white;
+}

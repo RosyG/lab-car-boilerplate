@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/modals.css">
     <link rel="stylesheet" href="assets/fonts/style.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   </head>
@@ -18,17 +19,53 @@
             <ul class="right hide-on-med-and-down">
               <li><a href="#">Viaja</a></li>
               <li><a href="#">Conduce</a></li>
-              <li><a href="#">Iniciar sesión</a></li>
+              <li><a class="modal-trigger" href="#modal1">Iniciar sesión</a></li>
             </ul>
 
             <ul class="side-nav" id="nav-mobile">
               <li><a href="#">Viaja</a></li>
               <li><a href="#">Conduce</a></li>
-              <li><a href="#">Iniciar sesión</a></li>
+              <li><a class="modal-trigger" href="#modal1">Iniciar sesión</a></li>
             </ul>
             <a href="#" data-activates="nav-mobile" class="button-collapse"><i class="material-icons btn-white">menu</i></a>
         </nav>
       </div>
+
+      <!-- Modal Structure -->
+    <div id="modal1" class="modal">
+          <div class="modal-content login">
+            <div class="row">
+                <div class="col s12 center-align">
+                  <img src="assets\images\user-img.png" alt="">
+                </div>
+                <div class="col s12">
+                  <hr>
+                </div>
+              </div>
+              <div class="col s8 container-login">
+                <div class="row">
+                  <div class="col s10 form-user">
+                    <div class="input-field col s12">
+                      <i class="material-icons prefix">account_circle</i>
+                      <input id="icon_prefix" type="text" class="validate">
+                      <label for="icon_prefix">Username</label>
+                    </div>
+                    <div class="input-field col s12">
+                      <i class="material-icons prefix">lock_outline</i>
+                      <input id="icon_password" type="tel" class="validate">
+                      <label for="icon_password">Password</label>
+                    </div>
+                    <div class="col s6 push-s4">
+                      <a class="waves-effect waves-light btn btn-login">LOGIN</a>
+                    </div>
+                    <div class="col s12">
+                      <p>Forget password? <a class="password" href="#">Click Here</a> </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+          </div>
+        </div>
 
     <div class="container-home hide-on-med-and-down">
         <div class="row">
@@ -39,7 +76,7 @@
             </div>
             <div class="row">
               <div class="col m12 ">
-                <a class="waves-effect waves-light btn btn-white">REGÍSTRATE</a>
+                <a class="waves-effect waves-light btn btn-white modal-trigger" href="#sign-up">REGÍSTRATE</a>
               </div>
             </div>
             <div class="row">
@@ -55,6 +92,58 @@
           </div>
         </div>
       </div>
+
+
+      <!-- Modal Structure -->
+    <div id="sign-up" class="modal">
+          <div class="modal-content sing-up">
+            <div class="row">
+                <div class="col s12 center-align background-black">
+                  <p>¿Ya tienes una cuenta?</p>
+                </div>
+                <div class="col s8 push-s4">
+                  <p>O CREA UNA CUENTA</p>
+                </div>
+            </div>
+              <div class="col s8 container-sing-up">
+                <div class="row">
+                  <div class="col s6">
+                      <input type="text" class="validate back-white">
+                      <label>Nombre</label>
+                  </div>
+                  <div class="col s6">
+                      <input type="tel" class="validate back-white">
+                      <label>Apellido</label>
+                  </div>
+                  <div class="col s12">
+                    <input type="tel" class="validate back-white">
+                    <label>Correo Electrónico: ejemplo@correo.com</label>
+                  </div>
+                  <div class="col s12">
+                      <input type="tel" class="validate back-white">
+                      <label>Teléfono</label>
+                  </div>
+                  <div class="col s12">
+                      <input type="tel" class="validate back-white">
+                      <label>Contraseña</label>
+                  </div>
+                  <div class="col s12">
+                      <input type="tel" class="validate back-white">
+                      <label>Ciudad</label>
+                  </div>
+                  <div class="col s12">
+                      <input type="tel" class="validate back-white">
+                      <label>(Opcional) Código de invitación</label>
+                  </div>
+
+                  <div class="col s5 push-s4">
+                      <a class="waves-effect waves-light btn">ENVIAR</a>
+                  </div>
+
+                </div>
+              </div>
+            </div>
+          </div>
 
 
     <div class="container-home-mobile show-on-medium-and-down hide-on-large-only">
@@ -120,7 +209,7 @@
           <h5>Conduce cuando quieras</h5>
           <h6><em> Lab< ar</em> es una opción flexible para akcanzar tus metas financieras.</h6>
           <br>
-          <a class="waves-effect waves-light btn btn-color">Conviertete en un conductor</a>
+          <a class="waves-effect waves-light btn btn-color modal-trigger" href="#date-car">Conviertete en un conductor</a>
         </div>
       </div>
     </div>
@@ -131,10 +220,67 @@
           <h5>Conduce cuando quieras</h5>
           <p><em> Lab< ar</em> es una opción flexible para akcanzar tus metas financieras.</p>
           <br>
-          <a class="waves-effect waves-light btn btn-color">Conviertete en un conductor</a>
+          <a class="waves-effect waves-light btn btn-color modal-trigger" href="#date-car">Conviertete en un conductor</a>
         </div>
       </div>
 
+    </div>
+
+    <div id="date-car" class="modal">
+      <div class="row">
+        <div class="input-field col s12">
+            <label>¿Tienes vehículo de 4 puertas?</label>
+            <select>
+              <option value="" disabled selected>Si o no</option>
+              <option value="1">Si</option>
+              <option value="2">No</option>
+            </select>
+        </div>
+
+        <div class="input-field col s12">
+            <label>Marca</label>
+            <select>
+              <option value="" disabled selected>Elige la marca del vehículo</option>
+              <option value="1">Ford</option>
+              <option value="2">Chevrolet</option>
+              <option value="3">Volkswagen</option>
+              <option value="4">Audi</option>
+            </select>
+            <h6>No ves tu vehículo en lista? Envía un correo a <a href="#">sociosmdv@uber.com</a>
+            </h6>
+        </div>
+
+        <div class="input-field col s12">
+            <label>Modelo</label>
+            <select>
+              <option value="" disabled selected>Elige un modelo</option>
+              <option value="1">modelo 1</option>
+              <option value="2">modelo 2</option>
+              <option value="3">modelo 3</option>
+            </select>
+        </div>
+
+        <div class="input-field col s12">
+            <label>Año</label>
+            <select>
+              <option value="" disabled selected>Elige un año</option>
+              <option value="1">2017</option>
+              <option value="2">2016</option>
+              <option value="3">2015</option>
+            </select>
+        </div>
+
+        <div class="input-field col s12">
+            <label>Número de la matrícula</label>
+            <input type="text" name="matricula" placeholder="Número de la matrícula">
+            <p>La información de la matricula ayuda a los clientes a identificar tu vehículo.</p>
+        </div>
+
+        <div class="col s12">
+            <a class="waves-effect waves-light btn">ENVIAR</a>
+        </div>
+
+      </div>
     </div>
 
     <div class="container-rates hide-on-med-and-down">
